@@ -29,7 +29,18 @@ height: 60px;
  margin-bottom: 15%;
  /*I amd ethis class to move the text to a different area in the intro section */
 }
+
+.borderintro{
+    border: black solid 4px;
+    background-color: rgb(255, 255, 255);
+}
+
 /*Intro/Navbar css code*/
+
+
+
+
+
 
 /*Product scroller*/
 /*
@@ -63,4 +74,6 @@ a.btn {
     margin-top: -43.6%;
     margin-left: 72%;
 }
+
+
 /*Product scroller*/
