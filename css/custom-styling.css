@@ -1,3 +1,9 @@
+body{
+
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow);
+}
+
 /*Intro/Navbar css code*/
 #img-size-position{
 width: 80px;
@@ -28,13 +34,14 @@ height: 60px;
 /*Intro/Navbar css code*/
 
 /*Product scroller*/
+/*
 .orangecontainer{
     margin-top: 30%;
     background-color: orange;
     height: 100%;
 }
 
-
+*/
 .product-scroller{
     background-color: rgb(238, 236, 238);
     width: 700px;
