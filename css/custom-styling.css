@@ -52,24 +52,65 @@ margin-right: 45%;
 
 /*Claases/ids for cards*/
 .Mostpopular-products{
-    background-color: aliceblue;
+    margin-top: 30%;
+    background-color: rgb(255, 255, 255);
     height: 700px;
-    border-radius: 45px;
-    padding-right: 99%;
+    
+    border-radius: 18px;
+  
     /*These cards are used to  move the cards*/
 }
+/*This classes are going to be used to move the cards*/
+        .card-mover{
+        position: relative;
+        top: 20px;
+        left: 20px;
+        }
 
-.card-mover{
-    position: relative;
-    bottom: 400px;
-    left: 450px;
-}
+        .card-mover-2{
 
-.card-mover-2{
-    position: relative;
-    bottom: 450px;
-    left: 600px;
-}
+        position: relative;
+        bottom: 500px;
+        left: 490px;
+        }
+
+        .card-mover-3{
+        position: relative;
+        bottom: 1020px;
+        left: 930px;
+        }
+
+       
+    
+        .text_header{
+            margin-top: -5%;
+            margin-bottom: 4%;
+            text-decoration: underline;
+        }
+
+        .card-button{
+
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 32%;
+        }
+
+        .card-button-2{
+            border-radius: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-top: 6%;
+            margin-left: 32%;
+        }
+
+     
+/*This classes are going to be used to move the cards*/
+
 /*Claases/ids for cards*/
 
 
