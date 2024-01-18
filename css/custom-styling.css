@@ -55,11 +55,18 @@ margin-right: 45%;
     margin-top: 30%;
     background-color: rgb(255, 255, 255);
     height: 700px;
-    
     border-radius: 18px;
-  
+
+
     /*These cards are used to  move the cards*/
 }
+
+.background{
+    background-image:url("../images/Background.png") ;
+    z-index:3;
+    margin-top: 90%;
+}
+
 /*This classes are going to be used to move the cards*/
         .card-mover{
         position: relative;
@@ -80,10 +87,41 @@ margin-right: 45%;
         left: 930px;
         }
 
-       
-    
+        .card-mover {
+            transition: transform 0.3s ease;
+        }
+        
+        .card-mover-2 {
+            transition: transform 0.3s ease;
+        }
+   
+        .card-mover:hover {
+            box-shadow: 1px 0.1px 15px rgb(0, 0, 0);
+            background-color: rgb(255, 226, 61);
+            transform: scale(1.1); /* Adjust the scaling factor as needed */
+        }
+        
+        .card-mover-2:hover {
+            box-shadow: 1px 0.1px 15px rgb(0, 0, 0);
+            background-color: rgb(255, 226, 61);
+            transform: scale(1.1); /* Adjust the scaling factor as needed */
+        }
+
+        .card-mover-3  {
+          
+            transition: transform 0.3s ease;
+
+        }
+        
+        .card-mover-3:hover {
+            box-shadow: 1px 0.1px 15px rgb(0, 0, 0);
+            background-color: rgb(255, 226, 61);
+            transform: scale(1.1); /* Adjust the scaling factor as needed */
+        }
+        
+
+  
         .text_header{
-            margin-top: -5%;
             margin-bottom: 4%;
             text-decoration: underline;
         }
