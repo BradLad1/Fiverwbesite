@@ -15,9 +15,17 @@ margin-left: 64%;
 }
 
 #img-size-position-2{
-    width: 60px;
-height: 75px;
+    width: 40px;
+height: 55px;
 }
+
+#img-size-position-3{
+    width: 40px;
+height: 55px;
+position: relative;
+left: 1000px;
+}
+
 
 .font-size{
     font-size: 24px;
@@ -52,7 +60,6 @@ margin-right: 45%;
 
 /*Claases/ids for cards*/
 .Mostpopular-products{
-    margin-top: 30%;
     background-color: rgb(255, 255, 255);
     height: 700px;
     border-radius: 18px;
@@ -64,7 +71,7 @@ margin-right: 45%;
 .background{
     background-image:url("../images/Background.png") ;
     z-index:3;
-    margin-top: 90%;
+   margin-top: 45%;
 }
 
 /*This classes are going to be used to move the cards*/
@@ -150,5 +157,4 @@ margin-right: 45%;
 /*This classes are going to be used to move the cards*/
 
 /*Claases/ids for cards*/
-
 
