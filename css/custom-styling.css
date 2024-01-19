@@ -13,18 +13,23 @@ width: 390px;
 height: 400px;
 margin-top: 14%;
 margin-left: 64%;
+/*The img-size-position classes are used to change the size and postion*/
+
 }
 
 #img-size-position-2{
     width: 40px;
 height: 55px;
+/*The img-size-position classes are used to change the size and postion*/
 }
+
 
 #img-size-position-3{
     width: 40px;
 height: 55px;
 position: relative;
 left: 1000px;
+/*The img-size-position classes are used to change the size and postion*/
 }
 
 
