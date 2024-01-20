@@ -2,18 +2,71 @@ body {
     height: 100vh; /* Set the height of the body to the full viewport height */
     margin: 0; /* Remove default body margin */
     background: linear-gradient(to right, red, yellow); /* Set the linear gradient from red to yellow */
-    /*Linear graident used to add asethtic to the background*/
   }
   
 
   
-/*Intro/Navbar css code*
+/*Intro/Navbar css code*/
+#img-size-position{
+width: 390px;
+height: 400px;
+margin-top: 14%;
+margin-left: 64%;
+}
+
+#img-size-position-2{
+    width: 40px;
+height: 55px;
+}
+
+#img-size-position-3{
+    width: 40px;
+height: 55px;
+position: relative;
+left: 1000px;
+}
+
+
+.font-size{
+    font-size: 24px;
+}
+
+.font-size-2{
+    font-size: 68px;
+}
+
+
+.navbar-position{
+    margin-right:35% ;
+    
+}
+
+.name-position{
+    margin-top: -25%;
+margin-right: 45%;
+}
+.text_move{
+ margin-top: -25%;
+ margin-left: 45.5%;
+ margin-bottom: 15%;
+ /*I amd ethis class to move the text to a different area in the intro section */
+}
+
+.borderintro{
+    border: black solid 1.8px;
+}
+
+/*Intro/Navbar css code*/
+
+/*Claases/ids for cards*/
 .Mostpopular-products{
     background-color: rgb(255, 255, 255);
     height: 700px;
     border-radius: 18px;
 
 
+    /*These cards are used to  move the cards*/
+}
 
 .background{
     background-image:url("../images/Background.png") ;
@@ -41,7 +94,6 @@ body {
         left: 930px;
         }
 
- 
         .card-mover {
             transition: transform 0.3s ease;
         }
@@ -73,9 +125,7 @@ body {
             background-color: rgb(255, 226, 61);
             transform: scale(1.1); /* Adjust the scaling factor as needed */
         }
-           /*The reason transition are used is to give more a popping effect to the cards and allow them standout
-         when they are looked by sizing them up and using a 
-         box shadow as well for extra appeal to improbe the overall look*/
+        
 
   
         .text_header{
