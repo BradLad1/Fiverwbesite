@@ -7,6 +7,8 @@ body {
 
   
 /*Intro/Navbar css code*/
+
+/*Change the image sizes and positions*/
 #img-size-position{
 width: 390px;
 height: 400px;
@@ -26,6 +28,7 @@ position: relative;
 left: 1000px;
 }
 
+/*Change the image sizes and positions*/
 
 .font-size{
     font-size: 24px;
@@ -180,7 +183,7 @@ margin-right: 45%;
     width: 40%;
     height: 600px;
     margin-left: 50%;
-    margin-top: -42.09%;
+    margin-top: -41.7%;
     background-color: aqua;
     padding: 60px;
     box-shadow: 5px 0px 18px rgb(0, 0, 0);
@@ -207,6 +210,8 @@ margin-right: 45%;
     box-shadow: 1px 0.1px 17px rgb(0, 0, 0);
     
 }
+
+
 
 .move_product_text img{
     padding: 50px 100px 50px 50px;
@@ -236,6 +241,8 @@ margin-right: 45%;
     margin-top: 6%;
     margin-left: 32%;
 }
+
+
 /*Jucies section*/
 
 
@@ -249,4 +256,85 @@ margin-right: 45%;
     height: 600px;
 }
 
+/*Jucies section*/
+#juice-container{
+    box-shadow: 1px 0.1px 15px rgb(0, 0, 0);
+    background: white;
+    height:600px;
+    width: 520px;
+    margin-top: 80%;
+    margin-left: 11%;
+    padding: 10px;
+  
+
+    /*This is going to be the container for the juice*/
+}
+
+
+
+ .move_product_text{
+    width: 40%;
+    height: 600px;
+    margin-left: 50%;
+    margin-top: -41.7%;
+    background-color: aqua;
+    padding: 60px;
+    box-shadow: 5px 0px 18px rgb(0, 0, 0);
+    z-index: -1;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex1{
+    display: flex;
+}
+
+
+.option img{
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    border: 1px solid grey;
+    padding: 3px;
+    margin: 1%;
+    margin-left: 3.5%;
+    box-shadow: 1px 0.1px 17px rgb(0, 0, 0);
+    
+}
+
+
+
+.move_product_text img{
+    padding: 50px 100px 50px 50px;
+}
+
+.icon-foward{
+    z-index: 4;
+}
+
+.button{
+    border-radius: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 6%;
+    margin-left: 13%;
+}
+
+
+.button-2{
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 6%;
+    margin-left: 32%;
+}
+
+
+/*Jucies section*/
 /*Food*/
