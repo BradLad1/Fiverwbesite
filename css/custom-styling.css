@@ -275,7 +275,7 @@ margin-right: 45%;
     width: 40%;
     height: 600px;
     margin-left: 50%;
-    margin-top: -41.7%;
+    margin-top: -41.65%;
     background-color: aqua;
     padding: 60px;
     box-shadow: 5px 0px 18px rgb(0, 0, 0);
@@ -358,7 +358,7 @@ margin-right: 45%;
     width: 40%;
     height: 600px;
     margin-left: 50%;
-    margin-top: -41.7%;
+    margin-top: -41.65%;
     background-color: rgb(0, 255, 68);
     padding: 60px;
     box-shadow: 5px 0px 18px rgb(0, 0, 0);
@@ -443,7 +443,8 @@ margin-right: 45%;
     width: 40%;
     height: 600px;
     margin-left: 50%;
-    margin-top: -41.7%;
+    margin-top: -41.65%;
+    margin-bottom: 120%;
     background-color: rgb(106, 75, 221);
     padding: 60px;
     box-shadow: 5px 0px 18px rgb(0, 0, 0);
@@ -513,12 +514,47 @@ margin-right: 45%;
 
 /*=============================================================REVIEWS================================================================*/
 #Review-Section{
-    box-shadow: 1px 0.1px 15px rgb(0, 0, 0);
-    background: linear-gradient( to right, rgb(66, 243, 22), yellow); /* Set the linear gradient from red to yellow */
-    
-  
+    background: linear-gradient( to right, rgb(66, 243, 22), rgb(3, 243, 95)); /* Set the linear gradient from red to yellow */
+    height: 100vh;
     /*This is going to be the container for the Food*/
 }
+ /*The containers will hold the reviews in the review section*/
+.review-container{
+    background-color: rgb(247, 148, 0);
+    height: 200px;
+    width: 85%;
+    margin-left: 12%;
+    border-radius: 15px;
+    width: 1000px;
+    padding: 15px;
+    border: 1.3px solid black;}
 
 
+.review-container-2{
+    background-color: rgb(247, 148, 0);
+    height: 200px;
+    width: 85%;
+    margin-left: 16%;
+    border-radius: 15px;
+    margin-bottom: 1%;
+    width: 1000px;
+    padding: 15px;
+    border: 1.3px solid black;
+}
+
+.review-container-3{
+    background-color: rgb(247, 148, 0);
+    height: 200px;
+    width: 85%;
+    margin-left: 16%;
+    border-radius: 15px;
+    width: 1000px;
+    padding: 15px;
+    margin-top: -1%;
+    border: 1.3px solid black;}
+ /*The containers will hold the reviews in the review section*/
+
+.Star-position{
+    align-self: center;
+}
 /*=============================================================REVIEWS================================================================*/

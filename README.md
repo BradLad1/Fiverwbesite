@@ -7,3 +7,12 @@ I created the navbar that would link to the juice, Food, Products and review sec
 This is the intro section that will  act as the intro to the website and the buy now section will act as the link to the card section 
 
 ///////========================INTRO===============================
+
+
+
+///////========================CARDS===============================
+<img width="985" alt="Screenshot 2024-01-23 at 18 09 04" src="https://github.com/BradLad1/Fiverwbesite/assets/148502451/1febde0e-ebcf-4693-b0d7-2417fedb32c1">
+
+The cards are where will put what is sold and where the products are sold when each of the linksa are clicked on they will take us to the section that are linked to
+
+
